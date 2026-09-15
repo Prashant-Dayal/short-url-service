@@ -15,7 +15,7 @@ A small URL shortening service built with Node.js, Express, MongoDB, Mongoose, a
 ## Requirements
 
 - Node.js 18 or later
-- MongoDB running locally on `127.0.0.1:27017`
+- MongoDB running locally 
 
 The application uses the `short-url` MongoDB database by default.
 
@@ -82,7 +82,6 @@ index.js      Application entry point
 
 ## Notes
 
-- The current application expects MongoDB at `mongodb://127.0.0.1:27017/short-url`.
 - The `npm start` script uses Nodemon for development.
 - Authentication and password handling are intended for development use and should be hardened before production deployment. In particular, move secrets to environment variables and hash passwords before deploying.
 
